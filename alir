@@ -1,0 +1,18 @@
+[1mdiff --git a/modulo/unidad1/git/app_example.py b/modulo/unidad1/git/app_example.py[m
+[1mindex 566be0e..bbc589f 100644[m
+[1m--- a/modulo/unidad1/git/app_example.py[m
+[1m+++ b/modulo/unidad1/git/app_example.py[m
+[36m@@ -1 +1,7 @@[m
+[31m-print("Hola Tercer Semestre")[m
+\ No newline at end of file[m
+[32m+[m[32mprint("Hola Tercer Semestre")[m
+[32m+[m[32mname = "María José"[m
+[32m+[m[32mformal = True[m
+[32m+[m[32mif (formal):[m
+[32m+[m[32m    print(f"Buenos días, {name}")[m
+[32m+[m[32melse:[m
+[32m+[m[32m    print(f"Hola, {name}")[m
+\ No newline at end of file[m
+[1mdiff --git a/modulo2/app.py b/modulo2/app.py[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
