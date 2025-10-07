@@ -1,0 +1,27 @@
+# Node .js
+node_modules/
+**/node_modules/
+
+# build output
+build/
+dist/   
+**/dist/
+**/build/
+.cache/
+
+# Logs
+logs/
+**/log/
+
+# Dependency directories
+**/parkage-lock.json
+**/yarn.lock    
+
+# Environment files
+.env
+**/.env
+
+# Converage folder (fot test coverage reports)
+coverage/
+**/coverage/
+
