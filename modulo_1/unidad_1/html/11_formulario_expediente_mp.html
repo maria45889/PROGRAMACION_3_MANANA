@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+   <p>Formulario Simple - Eventos y Conferencias</p>
+   <form action="procesar.php" method="post">
+      <table border="0">
+        <tr>
+            <th>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </th>
+            <th>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo">
+            </th>
+        </tr>
+        <tr>
+           <th>
+                <label for="Fecha">Fecha de nacimiento:</label>
+                <input type="date" id="Fecha" name="fecha">
+            </th>
+            <th>
+                <label for="color">Color favorito:</label>
+                <input type="color" id="color" name="color">
+            </th>
+        </tr>
+        <tr>
+           <td> 
+                <label for="genero">Género:</label>
+                <input type="radio" id="m" name="genero" value="M">Masculino
+                <input type="radio" id="f" name="genero" value="F">Femenino
+            </td>
+            <th>
+                <label for="pais">País:</label>
+                <select id="pais" name="pais">
+                    <option value ="">--Seleccione--</option>
+                    <option value="ec">Ecuador</option>
+                    <option value="col">Colombia</option>
+                    <option value="pe">Perú</option>
+                    <option value="ch">Chile</option>
+                    <option value="ar">Argentina</option>
+                    <option value="bo">Bolivia</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="pa">Paraguay</option>
+                    <option value="es">España</option>  
+                    <option value="ot">Otro</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="5"></textarea>
+            </td>
+            <td>
+                <input type="checkbox" id="acepto" name="acepto" required>
+                <label for="acepto">Acepto los términos y condiciones</label>
+            </td>
+        </tr>
+      </table>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpiar">
+   </form>    
+</body>
+</html>
