@@ -9,6 +9,6 @@ export class persona {
         this.edad=edad;
     }
     saludar():void{
-        console.log(Hola, soy ${this.nombre} y tengo ${this.edad} años)
+        console.log(`Hola, soy ${this.nombre} y tengo ${this.edad} años`)
     }
 }
