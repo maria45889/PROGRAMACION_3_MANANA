@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="04_eventos.js" defer></script>
+    </head>
+    <body>
+        <div id="contenedor"></div>
+
+        <button id="crear">Crear Evento</button>
+        <button id="eliminar">Eliminar Evento</button>
+
+        <button onclick="alert('Bienvenido al sistema de gestión de eventos')">
+            Mensaje de bienvenida
+        </button>
+
+        <button onclick="saludar()">
+            Saludo desde una función
+        </button>
+
+        <p id="parrafo">Doble clic para ver más información del evento</p>
+
+        <form id="formulario" style="margin-top:20px;">
+            <input 
+                type="text" 
+                id="nombre"
+                placeholder="Nombre del participante"
+            />
+            <button type="submit">Registrar</button>
+        </form>
+    </body>
+</html>
